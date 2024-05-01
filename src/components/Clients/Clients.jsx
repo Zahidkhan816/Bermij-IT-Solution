@@ -11,77 +11,63 @@ let clients = [
         position : "web developer",
         img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
         stars : 3,
-        disc : `Vehicular Ad hoc Network (VANET)`
+        disc : `Great Working experience`
     },
     {
         name : "John Michel",
         position : "web developer",
         img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
         stars : 4,
-        disc : `Intelligent Transportation System (ITS)`
+        disc : `Nice to have a work with Bermij , will work in future `
     },
     {
         name : "John Michel",
         position : "web developer",
         img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
         stars : 5,
-        disc : `Network Security`
+        disc : `Nice to have a work with Bermij , will work in future `
     },
     {
         name : "John Michel",
         position : "web developer",
         img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
         stars : 5,
-        disc : `Internet of Things(IoT)`
+        disc : `Nice to have a work with Bermij , will work in future `
     },
     {
         name : "John Michel",
         position : "web developer",
         img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
         stars : 5,
-        disc : `Cloud Computing `
+        disc : `Nice to have a work with Bermij , will work in future `
     },
     {
         name : "John Michel",
         position : "web developer",
         img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
         stars : 5,
-        disc : `Trusted Computing`
+        disc : `Nice to have a work with Bermij , will work in future `
     },
     {
         name : "John Michel",
         position : "web developer",
         img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
         stars : 5,
-        disc : `Big Data`
+        disc : `Nice to have a work with Bermij , will work in future `
     },
     {
         name : "John Michel",
         position : "web developer",
         img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
         stars : 5,
-        disc : `Wireless Sensor Network(WSN)`
+        disc : `Nice to have a work with Bermij , will work in future `
     },
     {
         name : "John Michel",
         position : "web developer",
         img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
         stars : 5,
-        disc : `Wireless Body Area Network (WBAN)`
-    },
-    {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 5,
-        disc : `MANET/FANET`
-    },
-    {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 5,
-        disc : `Driver-less Vehicle`
+        disc : `Nice to have a work with Bermij , will work in future `
     },
 ]
 var settings = {
@@ -128,8 +114,8 @@ const Clients = () => {
   return (
     <Container id='client'>
         <Slide direction="left">
-            <span className="green">Area of Research</span>
-            <h1>Intrusted Researches...</h1>
+            <span className="green">Happy Cleints</span>
+            <h3>Our Happy Customers</h3>
         </Slide>
         <Testimonials>
             <Slider ref={arrowRef} {...settings}>

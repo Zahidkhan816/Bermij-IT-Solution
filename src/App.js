@@ -7,6 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Services from "./components/Service/Services";
 import VANETsecurity from "./components/VanetSecurity/VANETsecurity";
 import VanetComputing from "./components/VanetTrustComputing/VanetComputing";
+import Subscriptions from "./components/SubcriptionPlan/Subscriptions"
 function App() {
   return (
     <Container>
@@ -17,9 +18,10 @@ function App() {
       <Services />
       <LightColor>
         <Projects />
-        <VANETsecurity />
-        <VanetComputing/>
+        {/* <VANETsecurity /> */}
+        {/* <VanetComputing/> */}
       </LightColor>
+      <Subscriptions/>
       <Clients />
       <LightColor>
         <Footer />

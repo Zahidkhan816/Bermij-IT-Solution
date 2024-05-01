@@ -1,31 +1,51 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import styled from 'styled-components';
-import Irsha_Sumra2 from  "../imags/Irshad_Sumra2.jpg"
+import Irsha_Sumra2 from '../imags/Irshad_Sumra2.jpg';
+
 const Header = () => {
-    const [bar, setBar] = useState(false);
+  const [bar, setBar] = useState(false);
+
+  const handleNavLinkClick = () => {
+    setBar(false); // Close the mobile navigation
+  };
+
   return (
     <Container bar={bar}>
-        <Logo>
-            <span className='green'><img style={{width:"2rem"}} src={Irsha_Sumra2} alt="logo" /></span>
-            <h1>Dr. Irshad Ahmed Sumra</h1>
-        </Logo>
-        <Nav bar={bar}>
-            <span><a href="#home">Home</a></span>
-            <span><a href="#service">My Courses</a></span>
-            <span><a href="#project">VANET Channel</a></span>
-            <span><a href="#project">VANET security</a></span>
-            <span><a href="#client">Area of Research</a></span>
-            <span><a href="#footer">Contact</a></span>
-        </Nav>
-        <div
+      <Logo>
+        <span className="green">
+          {/* <img style={{ width: "2rem" }} src={Irsha_Sumra2} alt="logo" /> */}
+        </span>
+        <h1>Bermij IT. Solution</h1>
+      </Logo>
+      <Nav bar={bar}>
+        <span>
+          <a href="#home" onClick={handleNavLinkClick}>Home</a>
+        </span>
+        <span>
+          <a href="#service" onClick={handleNavLinkClick}>Services</a>
+        </span>
+        <span>
+          <a href="#project" onClick={handleNavLinkClick}>Projects</a>
+        </span>
+        {/* <span>
+          <a href="#project" onClick={handleNavLinkClick}>VANET security</a>
+        </span> */}
+        <span>
+          <a href="#client" onClick={handleNavLinkClick}>Happy Client</a>
+        </span>
+        <span>
+          <a href="#footer" onClick={handleNavLinkClick}>Contact</a>
+        </span>
+      </Nav>
+      <div
         onClick={() => setBar(!bar)}
-        className="bars">
-            <div className="bar"></div>
-        </div>
+        className="bars"
+      >
+        <div className="bar"></div>
+      </div>
     </Container>
-  )
-}
-
+  );
+};
 export default Header
 
 const Container = styled.div`

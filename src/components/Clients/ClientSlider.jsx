@@ -17,18 +17,19 @@ const ClientSlider = (props) => {
                 ))}
             </div>
         </Header>
-        <Body>
-            <h3>
-            {disc}
-            </h3>
-        </Body>
+       
         <Footer>
-            {/* <img src={img_url} alt={name} /> */}
+        <img src={img_url} alt={name} />
             <div className="details">
-                {/* <h1>{name}</h1> */}
+                <h1>{name}</h1>
                 {/* <p>{position}</p> */}
             </div>
         </Footer>
+        <Body>
+        <h3>
+            {disc}
+            </h3>
+        </Body>
     </Container>
   )
 }

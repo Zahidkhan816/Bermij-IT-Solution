@@ -15,16 +15,16 @@ const ProfComponent = () => {
       <Slide direction="left">
         <Texts>
           <h4>
-            Hello <span className="green">I'am</span>
+            Welcome to <span className="green">Our</span> Company
           </h4>
-          <h1 className="green">Dr. Irshad Ahmed Sumra</h1>
-          <h3> A researcher and academic in the field of computer science</h3>
+          <h1 className="green">Bermij IT.Solution</h1>
+          <h3> Crafting Innovative Solutions in IT</h3>
           <div>
             <p>
-              Dr. Irshad Ahmed Sumra is a researcher and academic in the field of computer science, particularly in the area of Vehicular Ad Hoc Networks (VANETs)...</p>
+              Bermij is a leading IT software house, dedicated to delivering cutting-edge solutions and services in the realm of information technology. Our team comprises skilled professionals committed to excellence and innovation...</p>
             {
               showMore && (
-                <p>Im the founder of the VANET Research Group, which focuses on research and development related to VANETs, a type of wireless network that allows communication between vehicles and between vehicles and roadside infrastructure. Dr. Sumra has published numerous research papers in prestigious journals and conferences related to computer science and engineering. He has also worked as a reviewer for several international journals and conferences in the field of wireless networks and distributed systems. Additionally, Dr. Sumra has taught computer science courses at various universities and has been involved in several research projects related to VANETs, wireless sensor networks, and other topics related to computer science and engineering</p>
+                <p>We specialize in developing bespoke software solutions tailored to meet the unique needs of our clients. With a focus on leveraging the latest technologies, we aim to provide efficient and cost-effective IT solutions that drive business growth and success. Our extensive portfolio encompasses a wide range of projects across various industries, demonstrating our versatility and expertise in the field of software development.</p>
               )
             }
             <button onClick={toggleReadMoreLess}>
@@ -32,17 +32,16 @@ const ProfComponent = () => {
             </button>
           </div>
           <div>
-            <h2>Education:</h2>
+            <h2>Our Expertise:</h2>
             <ul>
-              <li>PhD - COMPUTER SCIENCE – Malaysia University of Science and Technology (MUST) Malaysia. [2016-2020]</li>
-              <li>MS - COMPUTER SCIENCE – Bahria University Islamabad. [2005-2007]  </li>
-              <li>MCS -COMPUTER SCIENCE – Bahria University Islamabad. [2002-2004] </li>
-              <li>BCS - COMPUTER SCIENCE – Islamia University Bahawalpur.[1999-2001]</li>
+              <li>Custom Software Development</li>
+              <li>Web & Mobile Application Development</li>
+              <li>Enterprise Solutions</li>
+              <li>Cloud Computing Services</li>
             </ul>
           </div>
-          {/* <button>Let's talk</button> */}
           <Social>
-            <p>Check out my</p>
+            <p>Connect with Us:</p>
             <div className="social-icons">
               <span>
                 <a href="/">
@@ -55,13 +54,14 @@ const ProfComponent = () => {
                 </a>
               </span>
               <span>
-                <a href="https://www.linkedin.com/in/dr-irshad-ahmed-sumra-aa811140/">
+                <a href="[LinkedIn Profile]">
                   <FaLinkedinIn />
                 </a>
               </span>
             </div>
           </Social>
         </Texts>
+
       </Slide>
       {/* profile picture.... >>>>>>>>>>>>>>>>>>>>>>*/}
       {/* <Slide direction="right">

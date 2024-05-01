@@ -24,16 +24,14 @@ const Footer = () => {
     <Container id="footer">
       <Profile>
         <Slide direction="left" delay={1}>
-          <h3>Dr.Irshad Ahmed Sumra [HEC Approved Supervisor]</h3>
+          <h3>Bermij IT.Solution</h3>
         </Slide>
         <div className="address">
           <Slide direction="left">
             <h3>Address:</h3>
           </Slide>
           <Slide direction="left">
-            <p>Department of Computer Science (CS)
-              Lahore Garrison University (LGU).
-              www.lgu.edu.pk</p>
+            <p>Pakistan, Lahore</p>
           </Slide>
         </div>
         <div className="links">
@@ -55,13 +53,13 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:miladamiri@gmail.com">irshadahmed@lgu.edu.pk</a>
+              <a href="mailto:miladamiri@gmail.com">Bermij.pk 123</a>
             </Slide>
           </div>
         </div>
         <div className="profiles">
           <Slide direction="left">
-            <h1>Check my profiles</h1>
+            <h1>Social Pages</h1>
           </Slide>
           <div className="icons">
             <Zoom>

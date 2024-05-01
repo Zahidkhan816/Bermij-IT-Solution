@@ -4,17 +4,17 @@ import SliderComp from './Slider';
 import { Zoom } from 'react-awesome-reveal';
 
 const Projects = () => {
-  return (
-    <Container id='project'>
-        <Zoom>
-            <h1> <span className="green">VANET Channel</span></h1>
-            <p>The VANET channel is the wireless communication medium used for vehicle-to-vehicle and vehicle-to-infrastructure communication in Vehicular Ad-Hoc Networks (VANETs).</p>
-        </Zoom>
-        <Slide>
-            <SliderComp/>
-        </Slide>
-    </Container>
-  )
+    return (
+        <Container id='project'>
+            <Zoom>
+                <h1><span className="green">Our Projects</span></h1>
+                <p>Explore our diverse range of projects showcasing our expertise in cutting-edge IT solutions and technologies.</p>
+            </Zoom>
+            <Slide>
+                <SliderComp />
+            </Slide>
+        </Container>
+    )
 }
 
 export default Projects;

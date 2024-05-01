@@ -1,0 +1,133 @@
+.notify-section {
+    padding: 20px;
+}
+
+.subscription-plan {
+    border: 2px solid #d9d9d9;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    height: 500px;
+}
+
+
+.plan-description,
+.plan-features,
+.plan-duration {
+    text-align: left; 
+    font-size: 16px; 
+}
+
+.subscription-plan:hover {
+    border-color: #0499CB;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.selected {
+    border-color: #0499CB;
+    background-color: #0499CB; 
+    color: white;
+}
+.selected .feature-icon {
+    color: white; 
+}
+.selected .plan-duration {
+    color: #ffffff;
+}
+.selected .plan-button{
+    border-color: #ffffff;
+}
+/* Plan title */
+.subscription-plan .ant-card-head {
+    background-color: #0499CB;
+    color: #fff;
+    border-radius: 2px 2px 0 0;
+}
+
+/* Plan description */
+.plan-description {
+    margin: 10px 0;
+}
+
+/* Plan price */
+.plan-price .plan-amount {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.plan-features {
+    margin: 10px 0;
+}
+
+
+.feature-icon {
+    color: #1890ff;
+    margin-right: 8px;
+    vertical-align: middle; 
+    font-size: 22px; 
+}
+
+// /* Plan button */
+// .plan-button {
+//     margin-top: 10px;
+//     background-color: #0499CB;
+//     color: #fff;
+
+//     &:hover {
+//         color: #fff; 
+//     }
+// }
+
+// /* "Contact Us" button for Enterprise plan */
+// .plan-button:last-child {
+//     background-color: #f5222d;
+
+//     &:hover {
+//         background-color: #ff4d4f;
+//     }
+// }
+
+.subscription-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #CCE5FF;
+    border-radius: 10px;
+}
+
+.subscription-info {
+    color: #003399;
+}
+
+.change-payment-button {
+    color: #ffff;
+    // border: 1px solid #ffffff;
+    padding: 9px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: auto;
+}
+
+// .change-payment-button:hover {
+//     background: #e0e0e0;
+//     color: rgba(0, 51, 153, 1);
+// }
+
+    .plan-features p {
+        display: flex;
+        align-items: flex-start; 
+        margin: 6px 0;
+    }
+
+
+    .plan-features p::before {
+        color: #1890ff;
+    }
+    .plan-features p .feature-icon {
+        margin-right: 4px; 
+    }
+
+
+    
