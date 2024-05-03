@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { MdAlternateEmail } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 import { HiOutlineMailOpen } from "react-icons/hi";
-import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp  ,AiFillFacebook,AiOutlineMail, AiFillTwitterCircle, AiFillTwitterSquare} from "react-icons/ai";
 import { BsFacebook, BsSlack } from "react-icons/bs";
 import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
@@ -62,7 +62,7 @@ const Footer = () => {
             <h1>Social Pages</h1>
           </Slide>
           <div className="icons">
-            <Zoom>
+            {/* <Zoom>
               <span>
                 <a href="https://orcid.org/0000-0001-9687-9790" target="_blank">
                 <img style={{width:"2rem", borderRadius:"1rem"}} src={OricdId} alt="" />
@@ -96,21 +96,35 @@ const Footer = () => {
                 <img style={{width:"2rem", borderRadius:"1rem"}} src={Scopus} alt="" />
                 </a>
               </span>
-            </Zoom>
+            </Zoom> */}
             <Zoom>
               <span>
-                <a target="_blank" href="https://www.linkedin.com/in/dr-irshad-ahmed-sumra-aa811140/">
-                  <AiFillLinkedin />
+                <a target="_blank" href="https://www.linkedin.com/company/website-designing-pakistan/?viewAsMember=true">
+                  <AiFillLinkedin style={{fontSize:"40px"}} />
                 </a>
               </span>
             </Zoom>
             <Zoom>
+              <span>
+                <a target="_blank" href="https://www.facebook.com/bermijpk">
+                  <AiFillFacebook style={{fontSize:"40px"}}/>
+                </a>
+              </span>
+            </Zoom>
+            <Zoom>
+              <span>
+                <a target="_blank" href="https://twitter.com/WebDesignerPk">
+                  < AiFillTwitterCircle style={{fontSize:"40px"}}/>
+                </a>
+              </span>
+            </Zoom>
+            {/* <Zoom>
               <span>
                 <a href="https://www.semanticscholar.org/author/Dr.Irshad-Ahmed-Sumra/3173527" target="_blank">
                 <img style={{width:"2rem", borderRadius:"1rem"}} src={Semanticscholar} alt="" />
                 </a>
               </span>
-            </Zoom>
+            </Zoom> */}
           </div>
         </div>
         <Fade>
