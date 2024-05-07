@@ -3,11 +3,11 @@ import styled from "styled-components";
 import { MdAlternateEmail } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 import { HiOutlineMailOpen } from "react-icons/hi";
-import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp  ,AiFillFacebook,AiOutlineMail, AiFillTwitterCircle, AiFillTwitterSquare} from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp, AiOutlinePhone, AiFillFacebook, AiOutlineMail, AiFillTwitterCircle, AiFillTwitterSquare } from "react-icons/ai";
 import { BsFacebook, BsSlack } from "react-icons/bs";
 import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
-import  OricdId from '../imags/OrcidId.png'
+import OricdId from '../imags/OrcidId.png'
 import GoogleScolar from '../imags/GoogleScolar.png'
 import publons from '../imags/publons.png'
 import Blogspot from '../imags/Blogspot.png'
@@ -31,6 +31,7 @@ const Footer = () => {
             <h3>Address:</h3>
           </Slide>
           <Slide direction="left">
+            <p>ireland</p>
             <p>Pakistan, Lahore</p>
           </Slide>
         </div>
@@ -53,7 +54,17 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:miladamiri@gmail.com">Bermij.pk 123</a>
+              <a href="mailto:miladamiri@gmail.com">wkaxali@gmail.com</a>
+            </Slide>
+          </div>
+          <div>
+            <Slide direction="left">
+              <span>
+                <AiOutlinePhone />
+              </span>
+            </Slide>
+            <Slide>
+              <a href="tel:+353894716472">+353 89 471 6472</a>
             </Slide>
           </div>
         </div>
@@ -97,24 +108,25 @@ const Footer = () => {
                 </a>
               </span>
             </Zoom> */}
+            {/* zoom */}
             <Zoom>
               <span>
                 <a target="_blank" href="https://www.linkedin.com/company/website-designing-pakistan/?viewAsMember=true">
-                  <AiFillLinkedin style={{fontSize:"40px"}} />
+                  <AiFillLinkedin style={{ fontSize: "40px" }} />
                 </a>
               </span>
-            </Zoom>
+            </Zoom> 
             <Zoom>
               <span>
                 <a target="_blank" href="https://www.facebook.com/bermijpk">
-                  <AiFillFacebook style={{fontSize:"40px"}}/>
+                  <AiFillFacebook style={{ fontSize: "40px" }} />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
                 <a target="_blank" href="https://twitter.com/WebDesignerPk">
-                  < AiFillTwitterCircle style={{fontSize:"40px"}}/>
+                  < AiFillTwitterCircle style={{ fontSize: "40px" }} />
                 </a>
               </span>
             </Zoom>
