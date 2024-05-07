@@ -114,7 +114,7 @@ const Footer = () => {
                   <AiFillLinkedin style={{ fontSize: "40px" }} />
                 </a>
               </span>
-            </Zoom> {s}
+            </Zoom> 
             <Zoom>
               <span>
                 <a target="_blank" href="https://www.facebook.com/bermijpk">
