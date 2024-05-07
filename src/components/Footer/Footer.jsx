@@ -108,6 +108,7 @@ const Footer = () => {
                 </a>
               </span>
             </Zoom> */}
+            {/* zoom */}
             <Zoom>
               <span>
                 <a target="_blank" href="https://www.linkedin.com/company/website-designing-pakistan/?viewAsMember=true">
