@@ -50,7 +50,7 @@ const Subscriptions = () => {
             amount: "Custom",
             duration: "Reach out for a quote",
             features: [
-                "bermij email"
+                "wkaxali@gmail.com"
             ],
         },
     ];
@@ -97,7 +97,7 @@ const Subscriptions = () => {
                                     </Button>
                                 )}
                                 {plan.type === "enterprise" && (
-                                    <a href="mailto:bermij email">
+                                    <a href="mailto:wkaxali@gmail.com">
                                         <Button type="primary" shape="round" className="plan-button">
                                             Contact Us
                                         </Button>
