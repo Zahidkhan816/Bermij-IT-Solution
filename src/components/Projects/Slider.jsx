@@ -3,64 +3,39 @@ import Slider from 'react-slick';
 import Project from './Project';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
-
+import Restuarentimage from '../imags/Restuarent.jpg'
+import Eccomerce from '../imags/Eccomerce.jpg'
+import onlineSHoping from '../imags/onlineSHoping.jpg'
+import Salepurchase from '../imags/Salepurchase.jpg'
+import ShowRoom from '../imags/ShowRoom.jpg'
 let data = [
   {
-    img: "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-    disc: "User Requirements Model for VANET Applications",
-    src: " https://www.youtube.com/watch?v=aNQEF9qkpfM&t=15s"
+    img: [Restuarentimage],
+    disc: "Restaurant: A project exploring innovative culinary experiences.",
+    src: "https://www.youtube.com/watch?v=aNQEF9qkpfM&t=15s"
   },
   {
-    img: "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-    disc: "Classes of Attacks in VANET",
+    img: [ShowRoom],
+    disc: "Showroom: A showcase of luxury automobiles and accessories.",
     src: "https://www.youtube.com/watch?v=WJNzGoeQ5YA&t=16s"
   },
   {
-    img: "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-    disc: " Forming vehicular web of trust in VANET ",
-    src: " https://www.youtube.com/watch?v=aNQEF9qkpfM&t=15s"
+    img: [Salepurchase],
+    disc: "Sale Purchase: Encapsulates the essence of facilitating transactions in digital marketplaces",
+    src: "https://www.youtube.com/watch?v=aNQEF9qkpfM&t=15s"
   },
   {
-    img: "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-    disc: "New card based scheme to ensure security and trust in vehicular communications ",
+    img: [onlineSHoping],
+    disc: "Online Shopping: Exploring the convenience and challenges of e-commerce.",
     src: "https://www.youtube.com/watch?v=o-7zhSaHT0E"
   },
   {
-    img: "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-    disc: "VANET Security Research and Development Ecosystem",
-    src: " https://www.youtube.com/watch?v=6pPBwYE69rg"
-  },
-  {
-    img: "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-    disc: "Trust Levels in Peer to Peer(P2P) in VANET",
-    src: "  https://www.youtube.com/watch?v=XdBWXk6QjMY"
-  },
-  {
-    img: "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-    disc: " Behavior of Attacker and Some New Possible Attacks in Vehicular Communication",
-    src: " https://www.youtube.com/watch?v=rerEsfVrdsE"
-  },
-  {
-    img: "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-    disc: " Timing Attack in Vehicular Network",
-    src: "   https://www.youtube.com/watch?v=LHxW1lXZu3k"
-  },
-  {
-    img: "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-    disc: " Denial of Service (DOS) Attack and Its Possible Solutions in VANET",
-    src: "   https://www.youtube.com/watch?v=gQg1RP5yQXg"
-  },
-  {
-    img: "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-    disc: " Using TPM to ensure Security,Trust and Privacy (STP) in VANET",
-    src: "  https://www.youtube.com/watch?v=53rG1p8frZw"
-  },
-  {
-    img: "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-    disc: "Using Trusted Platform Module (TPM) to Secure Business Communication (SBC) in VANET",
-    src: "https://www.youtube.com/watch?v=TSJh88229xQ"
-  },
+    img: [Eccomerce],
+    disc: "E-commerce: Investigating strategies for successful online business operations.",
+    src: "https://www.youtube.com/watch?v=6pPBwYE69rg"
+  }
 ];
+
 
 var settings = {
   className: "center",

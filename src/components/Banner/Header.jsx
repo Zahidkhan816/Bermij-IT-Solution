@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import Irsha_Sumra2 from '../imags/Irshad_Sumra2.jpg';
+import BermijLogo from '../imags/Bermijlogo.jpg';
 
 const Header = () => {
   const [bar, setBar] = useState(false);
@@ -13,7 +13,7 @@ const Header = () => {
     <Container bar={bar}>
       <Logo>
         <span className="green">
-          {/* <img style={{ width: "2rem" }} src={Irsha_Sumra2} alt="logo" /> */}
+          <img style={{ width: "4rem" , height:"3rem", borderRadius:"5px" }} src={BermijLogo} alt="logo" />
         </span>
         <h1>Bermij IT. Solution</h1>
       </Logo>
