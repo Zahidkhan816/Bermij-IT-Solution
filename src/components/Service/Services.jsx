@@ -15,11 +15,11 @@ const Services = () => {
       </h1>
     </Slide>
     <Cards>
-      <Slide direction="left">
+    <Slide direction="left">
         <Card
           Icon={MdDesignServices}
           title={"Full-Stack Web Development"}
-          disc={`Full-Stack Web Development: From front-end design to back-end functionality, we offer comprehensive solutions for creating dynamic and responsive web applications tailored to your needs.`}
+          disc={`Full-Stack Web Development: From front-end design to back-end functionality, we offer comprehensive solutions for creating dynamic and responsive websites to your needs.`}
         />
       </Slide>
       <Slide direction="up">
@@ -40,10 +40,10 @@ const Services = () => {
         <Card
           Icon={CgWebsite}
           title={"Mobile Communication"}
-          disc={`Mobile Communication: This introductory course provides an overview of wireless communication technologies and their applications, covering topics such as cellular networks, wireless protocols, and mobile data transmission.`}
+          disc={`Mobile Communication: This introductory course provides an overview of wireless communication technologies and their applications and mobile data transmission.`}
         />
       </Slide>
-      <Slide direction="left">
+      {/* <Slide direction="left">
         <Card
           Icon={CgWebsite}
           title={"Wireless Communication"}
@@ -99,7 +99,7 @@ const Services = () => {
           title={"Wireless Sensor Network"}
           disc={`A wireless sensor network consists of autonomous sensor nodes that wirelessly communicate to monitor and collect data from the environment.`}
         />
-      </Slide>
+      </Slide> */}
     </Cards>
   </Container>
   
